@@ -129,7 +129,6 @@
 
             #endregion
 
-
             #region Question09
             //Write a method PrintFirstBook() that prints the first book in the books array.
             //If the array is empty, use return to exit the method early instead of printing anything.
@@ -149,6 +148,23 @@
             PrintFirstBook(new string[] { "Clean Code", "The Pragmatic Programmer", "Refactoring" });
             #endregion
 
+            //_________________________________________________________________________________________
+            Console.WriteLine("_________________________________________________________________________________________");
+            Console.WriteLine("String Questions: ");
+
+            #region String Question01
+            //1 - Declare string title = "clean code";. Call title.ToUpper() and store it in a new variable upperTitle.
+            //  Print both title and upperTitle to show that title did not change.
+
+            Console.WriteLine("");
+            Console.WriteLine("Question01  : ");
+
+            string title2 = "clean code";
+            string upperTitle = title2.ToUpper();
+            Console.WriteLine(title2);
+            Console.WriteLine(upperTitle);
+
+            #endregion
             Console.ReadLine();
         }
     }
