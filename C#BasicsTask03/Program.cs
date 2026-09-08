@@ -51,6 +51,19 @@
             }
             #endregion
 
+            #region Question04
+            //Using the same books array, use a while loop to print every book title.________________________________________
+            Console.WriteLine("");
+            Console.WriteLine("Question04 : ");
+            string[] bookList = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int j = 0;
+            while (j < bookList.Length)
+            {
+                Console.WriteLine($"{j + 1}.{bookList[j]}");
+                j++;
+            }
+            #endregion
+
 
             Console.ReadLine();
         }
