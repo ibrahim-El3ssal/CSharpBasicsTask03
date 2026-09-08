@@ -214,6 +214,15 @@
 
             #endregion
 
+            #region String Question06
+            //6-Build the same sentence as above, but using string interpolation ($"...").
+            Console.WriteLine("");
+            Console.WriteLine("Question06  : ");
+
+            Console.WriteLine($"Book: {title3}, Pages: {pages3}");
+
+            #endregion
+
 
             Console.ReadLine();
         }
