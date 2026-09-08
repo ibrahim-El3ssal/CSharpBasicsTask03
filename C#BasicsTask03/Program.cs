@@ -129,6 +129,26 @@
 
             #endregion
 
+
+            #region Question09
+            //Write a method PrintFirstBook() that prints the first book in the books array.
+            //If the array is empty, use return to exit the method early instead of printing anything.
+
+
+            Console.WriteLine("");
+            Console.WriteLine("Question09 : ");
+            static void PrintFirstBook(string[] bookList)
+            {
+                if (bookList == null || bookList.Length == 0)
+                {
+                    return;
+                }
+                Console.WriteLine(bookList[0]);
+            }
+
+            PrintFirstBook(new string[] { "Clean Code", "The Pragmatic Programmer", "Refactoring" });
+            #endregion
+
             Console.ReadLine();
         }
     }
