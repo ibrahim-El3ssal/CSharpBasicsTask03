@@ -78,6 +78,18 @@
             } while (count < 3);
 
             #endregion
+
+            #region Question06
+            //Using the same books array, use a foreach loop to print every book title._____________
+
+            Console.WriteLine("");
+            Console.WriteLine("Question06 : ");
+            string[] bookList2 = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in bookList2)
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
             Console.ReadLine();
         }
     }
