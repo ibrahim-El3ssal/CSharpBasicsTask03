@@ -178,6 +178,18 @@
             Console.WriteLine(object.ReferenceEquals(str01, str02));
             #endregion  
 
+            #region String Question03
+            //3-Create a StringBuilder, Append() the text "Book List",
+            //then Append() " - Updated" onto the same object. Print the final result.
+            Console.WriteLine("");
+            Console.WriteLine("Question03  : ");
+            var sb = new StringBuilder();
+            sb.Append("Book List");
+            sb.Append(" - Updated");
+            Console.WriteLine(sb);
+            #endregion
+
+
 
             Console.ReadLine();
         }
