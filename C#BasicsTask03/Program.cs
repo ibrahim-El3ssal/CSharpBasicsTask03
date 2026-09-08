@@ -223,6 +223,14 @@
 
             #endregion
 
+            #region String Question07
+            //7-Build the same sentence again, but using string.Format(). 
+            Console.WriteLine("");
+            Console.WriteLine("Question07  : ");
+
+            Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title3, pages3));
+            #endregion 
+
 
             Console.ReadLine();
         }
