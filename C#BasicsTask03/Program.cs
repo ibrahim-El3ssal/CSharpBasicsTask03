@@ -189,7 +189,16 @@
             Console.WriteLine(sb);
             #endregion
 
+            #region String Question04
+            //4-Using the StringBuilder from the question above,
+            //use Replace() to change "Book List" into "Library". Print the result.
+            Console.WriteLine("");
+            Console.WriteLine("Question04  : ");
 
+            //var sb = new StringBuilder();
+            sb.Replace("Book List", "Library");
+            Console.WriteLine(sb);
+            #endregion
 
             Console.ReadLine();
         }
